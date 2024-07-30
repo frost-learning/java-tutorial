@@ -1,0 +1,26 @@
+1. Default Block or Instance initializers are not allowed in records
+
+For Example:
+public record RecordHelloWorld(String text) {
+	{
+		text = "Hello World";
+	}
+}
+	
+2. Records cannot extend any class
+
+3. Records cannot be abstract; they are implicitly final
+
+4. The components of a record are implicitly final
+
+5. Records cannot declare instance fields 
+(other than the private final fields that correspond to the components of the record component list); 
+any other declared fields must be static
+
+For Example:
+public record RecordHelloWorld() {
+	
+	static final String HELLO = "Hello";
+	
+	static String WORLD = "World";
+}

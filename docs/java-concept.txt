@@ -1,0 +1,121 @@
+Here's a comprehensive list of Java concepts and features introduced up to JDK 22, excluding deprecated ones:
+
+### Core Java Concepts:
+1. **Basic Syntax and Structure**
+2. **Data Types**
+3. **Variables**
+4. **Operators**
+5. **Control Flow Statements**
+   - if-else
+   - switch-case
+   - for loop
+   - while loop
+   - do-while loop
+   - enhanced for loop (for-each)
+6. **Arrays**
+7. **Strings**
+8. **Methods**
+9. **Classes and Objects**
+10. **Inheritance**
+11. **Interfaces**
+12. **Abstract Classes**
+13. **Packages**
+14. **Access Modifiers**
+15. **Encapsulation**
+16. **Polymorphism**
+17. **Exception Handling**
+18. **File I/O (java.io package)**
+19. **Collections Framework (java.util package)**
+    - List, Set, Map, Queue
+20. **Generics**
+21. **Multithreading and Concurrency**
+    - Thread class
+    - Runnable interface
+    - Synchronization
+    - Concurrent collections (java.util.concurrent package)
+22. **Annotations**
+23. **Lambda Expressions (introduced in JDK 8)**
+24. **Streams API (introduced in JDK 8)**
+25. **Optional class (introduced in JDK 8)**
+26. **Functional Interfaces (introduced in JDK 8)**
+27. **Nashorn JavaScript Engine (introduced in JDK 8)**
+28. **JDBC (Java Database Connectivity)**
+
+### Advanced Concepts:
+1. **Reflection**
+2. **Serialization**
+3. **JavaFX**
+4. **Java Native Interface (JNI)**
+5. **Network Programming (java.net package)**
+6. **Java Beans**
+7. **Java Security**
+8. **Java Cryptography Architecture (JCA)**
+9. **Java Naming and Directory Interface (JNDI)**
+10. **Java Management Extensions (JMX)**
+11. **Java Mail API**
+
+### Java Platform Module System (JPMS) (introduced in JDK 9):
+1. **Modules**
+2. **Module Descriptor (module-info.java)**
+3. **Module Path vs Class Path**
+
+### New Features from JDK 9 to JDK 22:
+1. **JDK 9:**
+   - JShell (REPL)
+   - HTTP/2 Client
+   - Stack-Walking API
+   - Process API Updates
+   - Multi-Release JAR Files
+   - Try-With-Resources Enhancements
+2. **JDK 10:**
+   - Local Variable Type Inference (var)
+   - Garbage-Collector Interface
+3. **JDK 11:**
+   - HTTP Client (Standard)
+   - New String Methods (lines(), strip(), isBlank(), etc.)
+   - Running Java Files with `java` command (source-file mode)
+   - Local-Variable Syntax for Lambda Parameters
+4. **JDK 12:**
+   - Switch Expressions (preview)
+   - JVM Constants API
+5. **JDK 13:**
+   - Switch Expressions (Standard)
+   - Text Blocks (preview)
+6. **JDK 14:**
+   - Switch Expressions (Standard)
+   - Records (preview)
+   - Pattern Matching for instanceof (preview)
+7. **JDK 15:**
+   - Text Blocks (Standard)
+   - Records (Second preview)
+   - Sealed Classes (preview)
+8. **JDK 16:**
+   - Records (Standard)
+   - Pattern Matching for instanceof (Standard)
+   - Sealed Classes (Second preview)
+9. **JDK 17:**
+   - Sealed Classes (Standard)
+   - Pattern Matching for switch (preview)
+   - Foreign Function & Memory API (preview)
+10. **JDK 18:**
+    - Simple Web Server
+    - UTF-8 by Default
+11. **JDK 19:**
+    - Virtual Threads (preview)
+    - Structured Concurrency (preview)
+    - Record Patterns (preview)
+12. **JDK 20:**
+    - Virtual Threads (Second preview)
+    - Structured Concurrency (Second preview)
+    - Pattern Matching for switch (Second preview)
+    - Record Patterns (Second preview)
+13. **JDK 21:**
+    - Virtual Threads (Standard)
+    - Sequenced Collections
+    - Record Patterns (Standard)
+    - String Templates (preview)
+14. **JDK 22:**
+    - String Templates (Second preview)
+    - Scoped Values (preview)
+
+This list should give you a broad overview of the key Java concepts and features introduced up to JDK 22, excluding any deprecated ones.
